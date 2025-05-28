@@ -9,17 +9,6 @@
   --nav-border: rgba(0, 255, 149, 0.1);
 }
 
-/* Light theme - Clean, minimal colors */
-[data-theme="light"] {
-  --bg-primary: #ffffff; /* Pure white */
-  --bg-secondary: #f0f0f0; /* Light gray */
-  --text-primary: #1a1a1a; /* Deep charcoal */
-  --text-secondary: #666666; /* Medium gray */
-  --accent: #00b368; /* Deep mint */
-  --nav-bg: rgba(255, 255, 255, 0.95);
-  --nav-border: rgba(0, 179, 104, 0.1);
-}
-
 * {
   margin: 0;
   padding: 0;
