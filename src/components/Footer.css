@@ -1,0 +1,50 @@
+.footer {
+  padding: 2rem 0;
+  background-color: var(--bg-secondary);
+  margin-top: 4rem;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer-social a {
+  color: var(--text-secondary);
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: var(--accent);
+  transform: translateY(-3px);
+}
+
+.footer-text {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.copyright {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.hesham {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-style: italic;
+  background-color: rgba(0, 0, 0, 0.03);
+  padding: 4px 8px;
+  border-radius: 6px;
+}
