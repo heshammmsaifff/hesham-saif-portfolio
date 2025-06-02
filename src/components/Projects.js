@@ -32,6 +32,15 @@ const Projects = () => {
       liveLink: "https://to-do-list-phi-vert.vercel.app/",
       image: "/imgs/To-Do-List.png",
     },
+    {
+      title: "Project Four",
+      description:
+        "Developed a dynamic pizza menu web application using React, showcasing component-based architecture, conditional rendering, and responsive design. Implemented reusable components and handled real-time UI updates based on data and time conditions.",
+      technologies: ["React", "CSS"],
+      githubLink: "https://pizzas-zeta-woad.vercel.app/",
+      liveLink: "https://pizzas-zeta-woad.vercel.app/",
+      image: "/imgs/pizzas.png",
+    },
   ];
 
   return (
