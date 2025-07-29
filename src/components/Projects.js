@@ -6,7 +6,25 @@ import ScrollReveal from "./ScrollReveal";
 const Projects = () => {
   const projects = [
     {
-      title: "Project One",
+      title: "Chronos – Luxury Swiss Watches",
+      description:
+        "A premium animated landing page showcasing a timeless collection of handcrafted Swiss watches.Built with attention to detail, smooth animations, and elegant design to reflect the true spirit of Swiss precision.",
+      technologies: ["React", "CSS", 'Type Script'],
+      githubLink: "https://github.com/heshammmsaifff/Chronos-hand-watches",
+      liveLink: "https://chronos-hand-watches.vercel.app/",
+      image: "/imgs/swiss.png",
+    },
+    {
+      title: "Sprint Code - Company Website",
+      description:
+        "Sprint Code Services is a dynamic React component that presents a tailored selection of web development offerings. It’s built to support Arabic language and RTL layout, making it ideal for freelancers, small businesses, and startups targeting regional audiences.",
+      technologies: ["React", "CSS", 'Java Script'],
+      githubLink: "https://github.com/heshammmsaifff/sprint-code",
+      liveLink: "https://sprint-code.vercel.app/",
+      image: "/imgs/sprint-code.png",
+    },
+    {
+      title: "Task Manager App",
       description:
         "A web application that allows users to track their daily tasks and manage their time effectively. Built with React and Node.js, featuring real-time updates and user authentication.",
       technologies: ["React", "CSS"],
@@ -15,7 +33,7 @@ const Projects = () => {
       image: "/imgs/task-manager.png",
     },
     {
-      title: "Project Two",
+      title: "Simple Portfolio",
       description:
         "A fully responsive portfolio website showcasing my bio, technical skills, and projects. Built with clean code and modern design principles. Hosted on Vercel.",
       technologies: ["HTML", "CSS"],
@@ -24,7 +42,7 @@ const Projects = () => {
       image: "/imgs/Simple-Portfolio.png",
     },
     {
-      title: "Project Three",
+      title: "To do list",
       description:
         "A minimalistic and responsive to-do list web app that allows users to add, mark, and delete tasks. Built with clean JavaScript and styled using modern CSS techniques.",
       technologies: ["HTML", "CSS", "JavaScript"],
@@ -33,11 +51,11 @@ const Projects = () => {
       image: "/imgs/To-Do-List.png",
     },
     {
-      title: "Project Four",
+      title: "Pizza Menu",
       description:
         "Developed a dynamic pizza menu web application using React, showcasing component-based architecture, conditional rendering, and responsive design. Implemented reusable components and handled real-time UI updates based on data and time conditions.",
       technologies: ["React", "CSS"],
-      githubLink: "https://pizzas-zeta-woad.vercel.app/",
+      githubLink: "https://github.com/heshammmsaifff/pizzas",
       liveLink: "https://pizzas-zeta-woad.vercel.app/",
       image: "/imgs/pizzas.png",
     },
